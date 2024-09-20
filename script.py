@@ -5,8 +5,7 @@ import openpyxl
 
 def main():
   
-    token="vk1.a.kwrEgOfUuSP8IMT5pbG8DytKPY-VxroJGKbdY1MUl2x0CHi8NS7M5tVAKZnt2mKTSXxXeV9Irqv7w-8jeQynRYtceMq2L7ovsMmTObV2olQoHa4EfOLRvaScBmeC-hXTOwRvy5zRj5p0TYtBXmwd6T3Qi6B8hFDCr0fnHHQbZuSNrOlyauEHbkeIkyQW_Ghln3hILFlCQdC8igoPoWqPbw"
-    
+    token="токен"
     parser = argparse.ArgumentParser(description="Сбор информации с группы VK")
     parser.add_argument("group_url", help="Ссылка на группу VK")
     parser.add_argument("start_date", help="Начало периода (YYYY-MM-DD)")
